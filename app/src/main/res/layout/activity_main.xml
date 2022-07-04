@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/homework_7"
+            android:textStyle="bold"
+            android:paddingVertical="20dp"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="@color/blue" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edEnterFieldName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:hint="@string/enter_field_name"
+            android:inputType="text"
+            android:background="@drawable/ed_bg"
+            android:maxLines="1"
+            android:paddingHorizontal="17dp" />
+
+        <CheckBox
+            android:id="@+id/cbNumeric"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/field_is_numeric"
+            android:buttonTint="@color/blue"
+            android:textColor="@color/black"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAddField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_field"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/btn_bg"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</ScrollView>
